@@ -1,0 +1,15 @@
+bookdown::gitbook:
+  config:
+    toc:
+      before: |
+        <li><a href="./">Debugging Code Using R</a></li>
+      after: |
+        <li><a href="https://bookdown.org/yihui/bookdown/" target="blank">Published with bookdown</a></li>
+    edit: https://github.com/swnydick/debug-code-r/edit/master/%s
+    download: ["pdf", "epub"]
+    
+bookdown::pdf_book:
+  includes:
+    in_header: _preamble.tex
+  latex_engine: xelatex
+  keep_tex: yes

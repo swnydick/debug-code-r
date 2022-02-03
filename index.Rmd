@@ -1,0 +1,18 @@
+--- 
+title: "Debugging Code Using R"
+subtitle: "An Opinionated Guide"
+author: "Steven W. Nydick"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+
+documentclass: book
+bibliography: [references/references.bib, references/packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: swnydick/debug-code-r
+---
+
+# Welcome {#welcome}
+
+This is a placeholder.
