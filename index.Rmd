@@ -1,6 +1,6 @@
 --- 
-title: "Debugging Code Using R"
-subtitle: "An Opinionated Guide"
+title: "Debugging Code"
+subtitle: "An Opinionated Guide (with Examples)"
 author: "Steven W. Nydick"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -13,6 +13,24 @@ link-citations: yes
 github-repo: swnydick/debug-code-r
 ---
 
-# Welcome {#welcome}
+`r if (knitr::is_latex_output()) '-->'`
 
-This is a placeholder.
+```{r global_options, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE)  
+```
+
+# Welcome {-}
+
+This is the website for the *"Debugging Code"* book. The purpose of the book is to outline how people should approach debugging code, finding and diagnosing errors, and preventing those errors from appearing again. Very few books cover the principles of debugging code. Most of the advice that I have seen is "write better test cases, and you will never have to debug". However, code is often written to meet deadlines, inherited from others with inadequate commenting, or simply inelegant. This book was written for people in the real world with real code.
+
+I am an R programmer. Many of the examples will be in the R programming language. I will also include examples in Python and C++ when illustrative. However, the principles involved are universal and should apply regardless of the language used.
+
+## Licence {-}
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons ND License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+
+The website for this book is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NoDerivs</a> license. Feel free to share the website with others or redistribute it for non-commercial uses, as long as the work remains unchanged and you credit the author.
+
+## About the Author {-}
+
+* [Steven W. Nydick](https://swnydick.github.io/about/) is a Psychometrician and R developer with a focus on improving assessment design through better item modeling and adaptive testing. He is author or co-author of several R packages, including [catIrt](https://cran.r-project.org/web/packages/catIrt/index.html) and [mupp](https://swnydick.github.io/mupp/).

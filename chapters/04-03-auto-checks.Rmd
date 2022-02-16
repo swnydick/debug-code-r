@@ -1,0 +1,1 @@
+# Automated Pipelines and Error Checks {#auto-checks}
