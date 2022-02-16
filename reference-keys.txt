@@ -1,2 +1,12 @@
-welcome
 intro
+interp-find-error
+interp-solve-error
+interp-find-unexp
+interp-solve-unexp
+compile-find-error
+compile-solve-error
+compile-find-unexp
+compile-solve-unexp
+testing
+coverage
+auto-checks
